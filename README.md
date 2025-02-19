@@ -50,11 +50,14 @@ const Foo = () =>
 
 ## Install
 
-`yarn add @welldone-software/babel-plugin-react-add-test-id`
+`yarn add @axelpro/babel-plugin-react-add-test-id`
 
 or
 
-`npm install @welldone-software/babel-plugin-react-add-test-id`
+`npm install @axelpro/babel-plugin-react-add-test-id`
+or
+
+`pnpm install @axelpro/babel-plugin-react-add-test-id`
 
 ## Usage
 
@@ -62,7 +65,7 @@ in .babelrc
 
 ```
 "plugins": [
-  "@welldone-software/babel-plugin-add-test-id",
+  "@axelpro/babel-plugin-react-add-test-id",
   ...
 ```
 
@@ -80,5 +83,6 @@ in .babelrc
 
 ```
 "plugins": [
-  ["@welldone-software/babel-plugin-add-test-id", {"attrName": "data-test-id-example"}],
+  ["@axelpro/babel-plugin-react-add-test-id", {"attrName": "data-test-id-example"}
+],
 ```
